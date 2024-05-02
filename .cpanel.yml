@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rteancom/repositories/rtean_kwara
+    - /bin/cp -R index.html, css, images $DEPLOYPATH
