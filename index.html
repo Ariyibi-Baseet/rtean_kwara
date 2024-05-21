@@ -31,11 +31,26 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <style>
+      marquee {
+        background-color: #04ce47;
+        background-color: #4c4c4c;
+        overflow: hidden;
+        color: #fff;
+      }
+
+      marquee > span {
+        padding: 5px 0;
+      }
+      .dropdown-item:active {
+        background-color: transparent !important;
+      }
+    </style>
     <title>Home | RTEAN KWARA</title>
   </head>
   <body>
     <!-- PRELOADER SECTIONS STARTS HERE -->
-    <div class="preloader">
+    <!-- <div class="preloader">
       <div class="box">
         <h2 class="text-white text-center mb-5 mt-5">
           Welcome to RTEAN Kwara State Branch
@@ -55,8 +70,18 @@
           />
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- ENDS HERE -->
+
+    <!-- MARQUEE STARTS HERE -->
+    <marquee>
+      <span
+        >Welcome the official website of the Kwara State Branch of Road
+        Transport Employers Association of Nigeria (RTEAN)</span
+      >
+    </marquee>
+    <!-- ENDS HERE -->
+
     <!-- NAVBAR STARTS HERE -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
@@ -104,8 +129,10 @@
                     >Former State Chairmen</a
                   >
                 </li> -->
-                <li class="dropdown-item">
-                  <a class="nav-link" href="state-executive-council.html"
+                <li class="dropdown-item shadow-none">
+                  <a
+                    class="nav-link shadow-none"
+                    href="state-executive-council.html"
                     >State Executive Council</a
                   >
                 </li>
@@ -115,12 +142,15 @@
               <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="videos.html">Videos</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
+          <!-- <form class="d-flex" role="search">
             <h4>KWARA Branch</h4>
-          </form>
+          </form> -->
         </div>
       </div>
     </nav>
@@ -239,6 +269,10 @@
                 <li class="mt-2">
                   <i class="bi bi-caret-right-fill text-white"></i>
                   <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="mt-2">
+                  <i class="bi bi-caret-right-fill text-white"></i>
+                  <a href="videos.html">Videos</a>
                 </li>
                 <li class="mt-2">
                   <i class="bi bi-caret-right-fill text-white"></i>
